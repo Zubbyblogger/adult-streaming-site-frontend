@@ -1,43 +1,33 @@
-﻿import React from 'react';
-import Link from 'next/link';
+// components/VideoCard.js
+import React from 'react';
 
 export default function VideoCard({ video }) {
+  if (!video) return null;
   return (
-    <div className='video-card'>
-      <Link href={/player/}>
-        <a className='thumb'>
-          <div className='thumb-img' style={{ backgroundImage: url() }} />
-        </a>
-      </Link>
-      <div className='meta'>
-        <h4>{video.title}</h4>
-        <p className='duration'>{video.duration}s</p>
-      </div>
+    <div className="video-card">
+      <img src={video.thumbnail} alt={video.title} style={{ width: '100%', height: 'auto' }} />
+      <h3>{video.title}</h3>
+      <p>{video.description}</p>
 
-      <style jsx>{
+      <style jsx>{`
         .video-card {
           width: 100%;
           max-width: 420px;
           margin: 8px auto;
+          padding: 8px;
           border-radius: 8px;
-          overflow: hidden;
-          box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-          background: #fff;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
-        .thumb { display:block; }
-        .thumb-img {
-          background-size: cover;
-          background-position: center;
-          height: 220px;
-          width: 100%;
+        .video-card h3 {
+          margin: 8px 0 4px;
+          font-size: 1.05rem;
         }
-        .meta { padding: 12px; }
-        .meta h4 { margin: 0 0 6px 0; font-size: 16px; }
-        .duration { color: #777; font-size: 13px; margin:0 }
-        @media (max-width:600px){
-          .thumb-img{ height: 180px }
+        .video-card p {
+          margin: 0;
+          color: #666;
+          font-size: 0.9rem;
         }
-      }</style>
+      `}</style>
     </div>
   );
 }
