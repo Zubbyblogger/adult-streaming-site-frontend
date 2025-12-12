@@ -1,0 +1,17 @@
+Vercel CLI 50.0.0
+Retrieving project…
+Deploying zubbys-projects-e00de6e0/adult-streaming-site-frontend
+Uploading [--------------------] (0.0B/1.3KB)
+Uploading [====================] (1.3KB/1.3KB)
+Inspect: https://vercel.com/zubbys-projects-e00de6e0/adult-streaming-site-frontend/64JSsfMwXbahtE8Kbj72tTTgvFmD [3s]
+Preview: https://adult-streaming-site-frontend-9ed8a6qjj.vercel.app [3s]
+https://adult-streaming-site-frontend-9ed8a6qjj.vercel.appQueued...
+Queued...
+Building: Running build in Washington, D.C., USA (East) – iad1
+Building: Build machine configuration: 2 cores, 8 GB
+Building: Retrieving list of deployment files...
+Building: Previous build caches not available.
+Building: Downloading 61 deployment files...
+Building: Running "vercel build"
+Building: Vercel CLI 50.0.0
+Error: Command "npm ci" exited with 1

@@ -1,4 +1,4 @@
-﻿// utils/api.js
+// utils/api.js
 // Simple API helper for frontend — uses NEXT_PUBLIC_API_URL if provided
 export const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000/api';
 

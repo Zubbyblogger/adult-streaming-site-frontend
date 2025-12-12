@@ -1,7 +1,7 @@
-/** @type {import('next').NextConfig} */
+﻿/** @type {import("next").NextConfig} */
 const nextConfig = {
-  output: 'export',     // makes Next produce a static export
   reactStrictMode: true,
+  // output: 'export' REMOVED to allow SSR/ISR/API routes on Vercel
 };
 
 module.exports = nextConfig;

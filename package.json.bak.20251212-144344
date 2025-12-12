@@ -1,19 +1,19 @@
-﻿{
+{
     "name":  "adult-streaming-frontend",
     "version":  "0.1.0",
     "private":  true,
     "scripts":  {
                     "dev":  "next dev",
                     "build":  "next build",
-                    "start":  "next start"
+                    "start":  "next start",
+                    "export":  "next export",
+                    "postinstall":  ""
                 },
     "dependencies":  {
+                         "@next/swc-win32-x64-msvc":  "^16.0.10",
                          "axios":  "1.4.0",
-                         "next":  "14.2.10",
+                         "next":  "13.4.7",
                          "react":  "18.2.0",
                          "react-dom":  "18.2.0"
-                     },
-    "engines":  {
-                    "node":  "20.x"
-                }
+                     }
 }

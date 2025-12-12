@@ -1,0 +1,29 @@
+Vercel CLI 50.0.0
+Retrieving project…
+Deploying zubbys-projects-e00de6e0/adult-streaming-site-frontend
+Uploading [--------------------] (0.0B/52.9KB)
+Uploading [=======-------------] (20.1KB/52.9KB)
+Uploading [=============-------] (36.8KB/52.9KB)
+Uploading [===================-] (52.8KB/52.9KB)
+Uploading [====================] (52.9KB/52.9KB)
+Inspect: https://vercel.com/zubbys-projects-e00de6e0/adult-streaming-site-frontend/GvqrYHFEynwfDvNeXpq3WEHUTjiW [4s]
+Preview: https://adult-streaming-site-frontend-jv09ytldv.vercel.app [4s]
+https://adult-streaming-site-frontend-jv09ytldv.vercel.appQueued...
+Queued...
+Building: Running build in Washington, D.C., USA (East) – iad1
+Building: Build machine configuration: 2 cores, 8 GB
+Building: Retrieving list of deployment files...
+Building: Previous build caches not available.
+Building: Downloading 72 deployment files...
+Building: Running "vercel build"
+Building: Vercel CLI 50.0.0
+Building: Running "install" command: `npm install --legacy-peer-deps`...
+Building: npm error code EBADPLATFORM
+Building: npm error notsup Unsupported platform for @next/swc-win32-x64-msvc@16.0.10: wanted {"os":"win32","cpu":"x64"} (current: {"os":"linux","cpu":"x64"})
+Building: npm error notsup Valid os:   win32
+Building: npm error notsup Actual os:  linux
+Building: npm error notsup Valid cpu:  x64
+Building: npm error notsup Actual cpu: x64
+Building: npm error A complete log of this run can be found in: /vercel/.npm/_logs/2025-12-12T13_55_09_430Z-debug-0.log
+Building: Error: Command "npm install --legacy-peer-deps" exited with 1
+Error: Command "npm install --legacy-peer-deps" exited with 1

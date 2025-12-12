@@ -1,4 +1,4 @@
-﻿// components/VideoCard.js
+// components/VideoCard.js
 import React from 'react';
 
 export default function VideoCard({ video }) {

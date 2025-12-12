@@ -1,0 +1,4 @@
+Vercel CLI 50.0.0
+Retrieving project…
+Error: Could not read C:\Users\Zubby\Downloads\adult-streaming-site\frontend\package.json: Unexpected token '﻿', "﻿{
+    "n"... is not valid JSON.

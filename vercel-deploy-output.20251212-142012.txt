@@ -1,0 +1,1 @@
+Error: Couldn't parse JSON file C:\Users\Zubby\Downloads\adult-streaming-site\frontend\vercel.json.
