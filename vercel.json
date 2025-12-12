@@ -1,1 +1,6 @@
-{"version":2,"build":{"installCommand":"npm install"}}
+﻿{
+  "version": 2,
+  "build": {
+    "installCommand": "npm install"
+  }
+}
