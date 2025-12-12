@@ -1,0 +1,22 @@
+Vercel CLI 50.0.0
+Retrieving project…
+Deploying zubbys-projects-e00de6e0/adult-streaming-site-frontend
+Uploading [--------------------] (0.0B/1000B)
+Uploading [=============-------] (699.0B/1000B)
+Uploading [=================---] (874.0B/1000B)
+Uploading [====================] (1000.0B/1000B)
+Inspect: https://vercel.com/zubbys-projects-e00de6e0/adult-streaming-site-frontend/FQVQABB43ny2a3rFdv18JqCbFzLG [5s]
+Production: https://adult-streaming-site-frontend-1iws096tu.vercel.app [5s]
+https://adult-streaming-site-frontend-1iws096tu.vercel.appQueued...
+Queued...
+Building: Running build in Washington, D.C., USA (East) – iad1
+Building: Build machine configuration: 2 cores, 8 GB
+Building: Retrieving list of deployment files...
+Building: Previous build caches not available.
+Building: Downloading 111 deployment files...
+Building: Running "vercel build"
+Building: Vercel CLI 50.0.0
+Building: Build Completed in /vercel/output [219ms]
+Building: Deploying outputs...
+[2K[1A[2K[GProduction: https://adult-streaming-site-frontend-1iws096tu.vercel.app [14s]
+Completing...

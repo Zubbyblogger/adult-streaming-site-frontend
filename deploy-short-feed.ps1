@@ -1,0 +1,6 @@
+# deploy-short-feed.ps1
+(Set-StrictMode -Version Latest)
+...
+(whole script)
+...
+Write-Host "`nDone. Open your Vercel production URL..." -ForegroundCyan
