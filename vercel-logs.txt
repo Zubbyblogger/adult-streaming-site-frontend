@@ -1,0 +1,3 @@
+Vercel CLI 50.0.0
+Fetching deployment "adult-streaming-site-frontend-xxxxx.vercel.app" in zubbys-projects-e00de6e0
+Error: Can't find the deployment "adult-streaming-site-frontend-xxxxx.vercel.app" under the context "zubbys-projects-e00de6e0"
