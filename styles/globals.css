@@ -1,0 +1,4 @@
+﻿/* globals.css - basic mobile friendly defaults */
+html,body,#__next { height:100%; }
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:#f7f7fb; color:#111; }
+a { color: inherit; text-decoration: none; }
